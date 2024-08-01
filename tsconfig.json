@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "nodenext",
+    "lib": ["ES2023"],
+    "target": "ES2023",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "moduleResolution": "NodeNext",
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "files": ["src/bin.ts"],
+}
