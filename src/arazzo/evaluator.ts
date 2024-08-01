@@ -1,6 +1,3 @@
-import type { RuntimeExpression } from "./types.js";
-import type { Workflow } from "./objects/workflow.js";
-
 export function parseSourceDescriptionExpression(
   expression: string,
 ): [name: string, resourceId: string] {

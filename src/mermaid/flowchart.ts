@@ -1,10 +1,8 @@
 import { Workflow } from "../arazzo/objects/workflow.js";
 import type { ArazzoSpecification } from "../arazzo/objects/document.js";
 import { OpenAPIOperation } from "../openapi/operation.js";
-import type { Step } from "../arazzo/objects/step.js";
 import type { Criterion } from "../arazzo/objects/criterion.js";
 import type { SuccessAction } from "../arazzo/objects/action.js";
-import type { State } from "../arazzo/state.js";
 
 export function generateFlowChart(document: ArazzoSpecification) {
   return [
